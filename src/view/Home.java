@@ -21,6 +21,7 @@ public class Home extends Application {
 
         BorderPane mainPane = new BorderPane();
         mainPane.setLeft(sidebar);
+        sidebar.setStyle("-fx-background-color: #fff");
         mainPane.setStyle("-fx-background-image: url('/view/img/bg.jpg')");
         Scene scene = new Scene(mainPane, 1024, 700);
         stage.setScene(scene);
